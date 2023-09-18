@@ -1,0 +1,14 @@
+HDR26 Pin,DB25 Pin,HUB75 pin, Function, ,HDR26 Pin,DB25 Pin,HUB75 pin, Function
+ 1,  1, N/A , ENA/E-STOP, , 2, 14, J3:1, GPIO
+ 3,  2, J6:5, GPIO, ,  4, 15, J3:0, GPIO
+ 5,  3, J6:6, GPIO, ,  6, 16, J4:6, GPIO
+ 7,  4, J5:0, GPIO, ,  8, 17, J4:5, GPIO
+ 9,  5, J5:1, GPIO, , 10, 18, N/A , GND
+11,  6, J5:2, GPIO, , 12, 19, N/A , GND
+13,  7, J5:4, GPIO, , 14, 20, N/A , GND
+15,  8, J5:5, GPIO, , 16, 21, N/A , GND
+17,  9, J5:6, GPIO, , 18, 22, N/A , GND/5V
+19, 10, J4:0, GPIO, , 20, 23, N/A , GND/5V
+21, 11, J4:1, GPIO, , 22, 24, N/A , GND/5V
+23, 12, J4:2, GPIO, , 24, 25, N/A , GND/5V
+25, 13, J4:4, GPIO, , 26, NC, N/A , GND/5V

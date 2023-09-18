@@ -32,4 +32,7 @@ LITEXCNC-HUB75HAT\**.*
 *.zip
 
 # Project Local Settings
-*.kicad_prl
+*.kicad_prl`
+
+# Documentation
+docs/build/
