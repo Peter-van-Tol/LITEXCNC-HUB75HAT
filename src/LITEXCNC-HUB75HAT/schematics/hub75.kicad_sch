@@ -786,6 +786,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "SPI_MISO" (shape output) (at 49.53 80.01 270) (fields_autoplaced)
+    (effects (font (size 1 1)) (justify right))
+    (uuid 31aa5a13-3383-475b-b048-41b96ada13ef)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 49.53 89.1699 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "J4:6" (shape bidirectional) (at 41.91 80.01 270) (fields_autoplaced)
     (effects (font (size 1.1 1.1)) (justify right))
     (uuid 32f89fa0-56e2-428d-870e-4a58589978fc)
@@ -919,6 +926,20 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "SPI_CLCK" (shape input) (at 49.53 67.31 90) (fields_autoplaced)
+    (effects (font (size 1 1)) (justify left))
+    (uuid b5d885df-3a49-480d-abdb-040c0917c20c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 49.53 57.9597 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "SPI_MOSI" (shape input) (at 52.07 80.01 270) (fields_autoplaced)
+    (effects (font (size 1 1)) (justify right))
+    (uuid b8123275-a7ff-4f81-896f-9dd6742de2f5)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 52.07 89.1699 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "J1:1" (shape bidirectional) (at 125.73 67.31 90) (fields_autoplaced)
     (effects (font (size 1.1 1.1)) (justify left))
     (uuid b8e999b3-d285-4c1a-a12e-5bd0adac9edb)
@@ -1048,7 +1069,7 @@
           (reference "J17") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J10") (unit 1)
         )
@@ -1078,7 +1099,7 @@
           (reference "#FLG04") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#FLG01") (unit 1)
         )
@@ -1108,7 +1129,7 @@
           (reference "#PWR087") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR049") (unit 1)
         )
@@ -1138,7 +1159,7 @@
           (reference "#PWR072") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR034") (unit 1)
         )
@@ -1168,7 +1189,7 @@
           (reference "#PWR088") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR050") (unit 1)
         )
@@ -1198,7 +1219,7 @@
           (reference "#PWR082") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR044") (unit 1)
         )
@@ -1228,7 +1249,7 @@
           (reference "#PWR074") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR036") (unit 1)
         )
@@ -1273,7 +1294,7 @@
           (reference "J23") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J16") (unit 1)
         )
@@ -1304,7 +1325,7 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "C8") (unit 1)
         )
@@ -1334,7 +1355,7 @@
           (reference "#PWR076") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR038") (unit 1)
         )
@@ -1379,7 +1400,7 @@
           (reference "J19") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J12") (unit 1)
         )
@@ -1409,7 +1430,7 @@
           (reference "#PWR081") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR043") (unit 1)
         )
@@ -1439,7 +1460,7 @@
           (reference "#PWR085") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR047") (unit 1)
         )
@@ -1469,7 +1490,7 @@
           (reference "#PWR086") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR048") (unit 1)
         )
@@ -1499,7 +1520,7 @@
           (reference "#PWR084") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR046") (unit 1)
         )
@@ -1529,7 +1550,7 @@
           (reference "#PWR089") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR051") (unit 1)
         )
@@ -1574,7 +1595,7 @@
           (reference "J12") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J5") (unit 1)
         )
@@ -1605,7 +1626,7 @@
           (reference "C8") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "C7") (unit 1)
         )
@@ -1635,7 +1656,7 @@
           (reference "#PWR073") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR035") (unit 1)
         )
@@ -1680,7 +1701,7 @@
           (reference "J22") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J15") (unit 1)
         )
@@ -1710,7 +1731,7 @@
           (reference "#PWR078") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR040") (unit 1)
         )
@@ -1740,7 +1761,7 @@
           (reference "#PWR091") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR053") (unit 1)
         )
@@ -1785,7 +1806,7 @@
           (reference "J18") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J11") (unit 1)
         )
@@ -1815,7 +1836,7 @@
           (reference "#PWR077") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR039") (unit 1)
         )
@@ -1846,7 +1867,7 @@
           (reference "J21") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J14") (unit 1)
         )
@@ -1876,7 +1897,7 @@
           (reference "#PWR080") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR042") (unit 1)
         )
@@ -1907,7 +1928,7 @@
           (reference "J20") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J13") (unit 1)
         )
@@ -1937,7 +1958,7 @@
           (reference "#PWR079") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR041") (unit 1)
         )
@@ -1982,7 +2003,7 @@
           (reference "J11") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J4") (unit 1)
         )
@@ -2027,7 +2048,7 @@
           (reference "J13") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J6") (unit 1)
         )
@@ -2057,7 +2078,7 @@
           (reference "#PWR083") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR045") (unit 1)
         )
@@ -2087,7 +2108,7 @@
           (reference "#PWR075") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR037") (unit 1)
         )
@@ -2117,7 +2138,7 @@
           (reference "#PWR090") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR052") (unit 1)
         )
@@ -2162,7 +2183,7 @@
           (reference "J16") (unit 1)
         )
       )
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J9") (unit 1)
         )

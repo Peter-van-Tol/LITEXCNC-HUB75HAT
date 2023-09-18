@@ -301,6 +301,63 @@
         )
       )
     )
+    (symbol "Device:Polyfuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "F" (at -2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Polyfuse" (at 2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 1.27 -5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resettable fuse, polymeric positive temperature coefficient" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "*polyfuse* *PTC*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Polyfuse_0_1"
+        (rectangle (start -0.762 2.54) (end 0.762 -2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 2.54)
+            (xy -1.524 1.524)
+            (xy 1.524 -1.524)
+            (xy 1.524 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Polyfuse_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R_Pack04" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "RN" (at -7.62 0 90)
         (effects (font (size 1.27 1.27)))
@@ -1391,6 +1448,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "ENA{slash}ESTOP" (shape bidirectional) (at 86.36 27.94 180) (fields_autoplaced)
+    (effects (font (size 1.1 1.1)) (justify right))
+    (uuid 1a286897-0eae-4969-941c-434966168f42)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 73.436 27.94 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "PORTB13" (shape bidirectional) (at 86.36 58.42 180) (fields_autoplaced)
     (effects (font (size 1.1 1.1)) (justify right))
     (uuid 1b1046f0-59f3-48bf-ada8-3af9151b7be6)
@@ -1496,6 +1560,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "ENA{slash}ESTOP" (shape bidirectional) (at 124.46 27.94 180) (fields_autoplaced)
+    (effects (font (size 1.1 1.1)) (justify right))
+    (uuid 46fc75b8-b937-40ee-85cc-d2ee1ae24580)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 111.536 27.94 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "PORTB12" (shape bidirectional) (at 86.36 55.88 180) (fields_autoplaced)
     (effects (font (size 1.1 1.1)) (justify right))
     (uuid 4ac55fb8-0dcd-4bd7-ae7a-ad8d8a1644d0)
@@ -1508,6 +1579,13 @@
     (uuid 4e4231f6-3844-4c85-b314-0ab1a5c02417)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 59.0364 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "ENA{slash}ESTOP" (shape bidirectional) (at 48.26 27.94 180) (fields_autoplaced)
+    (effects (font (size 1.1 1.1)) (justify right))
+    (uuid 50006d0b-1e37-437b-9f51-a5f16574de07)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 35.336 27.94 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "PORTC9" (shape bidirectional) (at 143.51 113.03 0) (fields_autoplaced)
@@ -2032,7 +2110,7 @@
     (pin "7" (uuid aa6a66c4-2473-44a5-8444-39c5ccdc1cb8))
     (pin "8" (uuid de27f5c1-b36e-4225-8e0b-157b4dff22c1))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN7") (unit 1)
         )
@@ -2057,7 +2135,7 @@
     )
     (pin "1" (uuid c070acac-9876-46f7-9102-7652f766e5eb))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR017") (unit 1)
         )
@@ -2082,9 +2160,41 @@
     )
     (pin "1" (uuid d30e40b9-2530-4809-9baf-45e5a031ed5c))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Polyfuse") (at 199.39 49.53 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 227993e7-7413-4f7d-97c3-9d34abc9a7e1)
+    (property "Reference" "F1" (at 199.39 43.18 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "108L" (at 199.39 45.72 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" (at 204.47 48.26 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (at 199.39 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8c85727c-3bb9-4f15-b9d0-1dafd18afd70))
+    (pin "2" (uuid 93e55422-ad71-4a4a-9c15-d9e005d6c6d7))
+    (instances
+      (project "LITEXCNC-HUB75HAT"
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/7e4767b4-b2d0-42d7-8d39-43025a744821"
+          (reference "F1") (unit 1)
+        )
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/9bb13272-be2a-4c45-a57a-353180fffd14"
+          (reference "F3") (unit 1)
+        )
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
+          (reference "F6") (unit 1)
         )
       )
     )
@@ -2107,7 +2217,7 @@
     )
     (pin "1" (uuid 3e488450-50a4-4d66-804f-b0d8a3c35cf3))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR032") (unit 1)
         )
@@ -2134,7 +2244,7 @@
     (pin "2" (uuid 06043d27-ef8b-47a4-822b-f009d3711650))
     (pin "3" (uuid bf997a23-a03f-4362-9f7b-e5dad6c1975f))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "JP5") (unit 1)
         )
@@ -2166,9 +2276,41 @@
     (pin "7" (uuid a90b0d43-5ecb-4ff6-8d02-d609a87866a7))
     (pin "8" (uuid fdb18f34-738c-42d0-b459-4f489bcf8d7e))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Polyfuse") (at 199.39 77.47 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 323744e9-438f-465d-b14b-98725d6c6e64)
+    (property "Reference" "F1" (at 199.39 71.12 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "108L" (at 199.39 73.66 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" (at 204.47 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (at 199.39 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6ee505b0-0de2-4505-8054-da7fdfa7f6c7))
+    (pin "2" (uuid 0175f9a2-ac9e-4aef-b451-904094763567))
+    (instances
+      (project "LITEXCNC-HUB75HAT"
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/7e4767b4-b2d0-42d7-8d39-43025a744821"
+          (reference "F1") (unit 1)
+        )
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/9bb13272-be2a-4c45-a57a-353180fffd14"
+          (reference "F3") (unit 1)
+        )
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
+          (reference "F7") (unit 1)
         )
       )
     )
@@ -2191,9 +2333,34 @@
     )
     (pin "1" (uuid 497d22d3-1970-4ed8-a67a-e9b9f6077606))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 195.58 77.47 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 37972330-bfee-4812-95dd-c120641ba6d4)
+    (property "Reference" "#PWR024" (at 199.39 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 191.77 77.47 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 195.58 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 195.58 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d6427452-fc2c-47d0-a2f8-d0d758214a7e))
+    (instances
+      (project "LITEXCNC-HUB75HAT"
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2223,7 +2390,7 @@
     (pin "7" (uuid 4e3f56c5-c377-4c14-8122-865724553865))
     (pin "8" (uuid a53df3b8-5146-4715-b29e-a7b2df27c118))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN9") (unit 1)
         )
@@ -2273,34 +2440,9 @@
     (pin "8" (uuid 6c451166-3e7f-4f0e-8624-f0afc46c572e))
     (pin "9" (uuid 1f0e9774-c692-4dee-ab81-059781d7d0bf))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "J2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 203.2 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 41b3ae90-4619-4575-acad-667a6523dda9)
-    (property "Reference" "#PWR020" (at 203.2 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 203.2 44.45 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 203.2 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 203.2 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 201b34d2-62e3-484f-b51f-209c1cbf9ac1))
-    (instances
-      (project "LitexCNC-7c81"
-        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
-          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2323,7 +2465,7 @@
     )
     (pin "1" (uuid 6762aae3-f381-4409-80f0-2e5b46a60eee))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR027") (unit 1)
         )
@@ -2350,7 +2492,7 @@
     (pin "2" (uuid 9c04e68f-da3a-43ff-8fe7-aad310c94abf))
     (pin "3" (uuid 386a9c7e-b056-4497-b29a-7ed5959e6745))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "JP2") (unit 1)
         )
@@ -2375,7 +2517,7 @@
     )
     (pin "1" (uuid a775fa8f-8d9c-4032-9f49-0beec936656c))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR025") (unit 1)
         )
@@ -2425,7 +2567,7 @@
     (pin "8" (uuid fc536e8d-6e64-4488-845a-2beb33d5c921))
     (pin "9" (uuid cdf992a8-0522-448c-9ed3-62c03683e6b8))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "J1") (unit 1)
         )
@@ -2452,7 +2594,7 @@
     (pin "2" (uuid 4f3cc8da-b3cc-41c1-9329-7284a67167e1))
     (pin "3" (uuid e420d233-7ff1-42aa-a385-48944c6ac174))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "JP1") (unit 1)
         )
@@ -2477,7 +2619,7 @@
     )
     (pin "1" (uuid c051d6a7-2c11-41c4-8f8b-c01694fd4490))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR019") (unit 1)
         )
@@ -2502,7 +2644,7 @@
     )
     (pin "1" (uuid c83842d9-1062-4cd9-8b57-b84e33688d0f))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR016") (unit 1)
         )
@@ -2527,7 +2669,7 @@
     )
     (pin "1" (uuid 23ceb05f-cf5b-4ca8-8053-b527776ba228))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR021") (unit 1)
         )
@@ -2559,59 +2701,9 @@
     (pin "7" (uuid e9b3503c-f477-452d-8d5e-f9c4cf8d6bd6))
     (pin "8" (uuid 325f424c-a8a7-484f-b11a-3e620ea03e64))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 203.2 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6b304b38-078c-4ffb-bfda-3c7a3cf1c4e6)
-    (property "Reference" "#PWR013" (at 203.2 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 203.2 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 203.2 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 203.2 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9da9597a-3d9c-434b-856e-20d8364c35b7))
-    (instances
-      (project "LitexCNC-7c81"
-        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
-          (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 203.2 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 73aee6c4-4bfa-4185-aa4a-87379fc5bf46)
-    (property "Reference" "#PWR024" (at 203.2 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 203.2 72.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 203.2 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 203.2 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4ea106c2-fd12-4a66-bba1-c877ec40b0c8))
-    (instances
-      (project "LitexCNC-7c81"
-        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
-          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2641,9 +2733,34 @@
     (pin "7" (uuid dacffc10-911d-440a-a118-f060137f0e22))
     (pin "8" (uuid 76341f44-d9d7-4cc7-9631-6f25d090d2e5))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 195.58 49.53 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7bf01599-ff4f-4440-ba3b-a4c8804ee45e)
+    (property "Reference" "#PWR020" (at 199.39 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 191.77 49.53 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 195.58 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 195.58 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3c2d88c-d3d6-40b7-beb0-e7a09153e14e))
+    (instances
+      (project "LITEXCNC-HUB75HAT"
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2666,7 +2783,7 @@
     )
     (pin "1" (uuid e77de467-c056-4341-b275-f29ba8ac083d))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR030") (unit 1)
         )
@@ -2691,7 +2808,7 @@
     )
     (pin "1" (uuid 795c1852-368d-4955-a23b-92b5c47b8fe2))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR026") (unit 1)
         )
@@ -2716,7 +2833,7 @@
     )
     (pin "1" (uuid 7d19258e-0781-41bb-add0-2248eb8fa5d8))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR033") (unit 1)
         )
@@ -2741,7 +2858,7 @@
     )
     (pin "1" (uuid a980dfb4-cf7d-406d-a5e3-8b597a12069d))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR031") (unit 1)
         )
@@ -2768,7 +2885,7 @@
     (pin "2" (uuid 526c17ba-a21a-41fa-a884-68a8295d302f))
     (pin "3" (uuid 08e4fbcf-3a7f-4ec0-b21b-6ac5fe90a286))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "JP3") (unit 1)
         )
@@ -2794,7 +2911,7 @@
     (pin "1" (uuid c21aef07-f8f8-4383-a63b-e292b05bf978))
     (pin "2" (uuid e916f0c0-996e-477c-82e5-8827c48ad629))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "C6") (unit 1)
         )
@@ -2819,9 +2936,34 @@
     )
     (pin "1" (uuid 11bce98c-c575-41dc-993a-cfdae727d564))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 195.58 20.32 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a380fc21-8c8c-4f6d-875b-48514d375f1b)
+    (property "Reference" "#PWR013" (at 199.39 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 191.77 20.32 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 195.58 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 195.58 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 694db1d3-2b58-4fb5-bac5-fb4cc7c87cd8))
+    (instances
+      (project "LITEXCNC-HUB75HAT"
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2846,9 +2988,41 @@
     (pin "2" (uuid 1a048810-de50-4e24-a4f1-3c43424b8f4d))
     (pin "3" (uuid 34e33b5b-8888-4c04-b723-ca08d2aac588))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "JP4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Polyfuse") (at 199.39 20.32 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a943dde8-f034-4568-b347-e71c630fce5f)
+    (property "Reference" "F1" (at 199.39 13.97 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "108L" (at 199.39 16.51 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" (at 204.47 19.05 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (at 199.39 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c89a8670-d094-4c0f-b676-217833534a08))
+    (pin "2" (uuid d47c5e19-5389-410b-879a-9f1c2fd1ca8e))
+    (instances
+      (project "LITEXCNC-HUB75HAT"
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/7e4767b4-b2d0-42d7-8d39-43025a744821"
+          (reference "F1") (unit 1)
+        )
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/9bb13272-be2a-4c45-a57a-353180fffd14"
+          (reference "F3") (unit 1)
+        )
+        (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
+          (reference "F5") (unit 1)
         )
       )
     )
@@ -2872,7 +3046,7 @@
     (pin "1" (uuid f218f8c9-f67b-44ba-a3d0-e14f7cee30de))
     (pin "2" (uuid 9cccb6d4-2115-4429-9db6-57bf75614f51))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "C2") (unit 1)
         )
@@ -2898,7 +3072,7 @@
     (pin "1" (uuid 9410d0fc-1216-4b8c-a442-abf95623c200))
     (pin "2" (uuid a12383e5-49b1-4c09-95d7-ca9b0774ed2d))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "C4") (unit 1)
         )
@@ -2930,7 +3104,7 @@
     (pin "7" (uuid c0f712b1-1dc1-4bbd-8749-641e0fb19b9a))
     (pin "8" (uuid 9a855a84-95b5-4f8d-94ea-b659be2e3708))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN11") (unit 1)
         )
@@ -2962,7 +3136,7 @@
     (pin "7" (uuid 456e4f30-1867-4fc7-9517-a88537ad9ad4))
     (pin "8" (uuid 6de29485-7ad2-45d1-ad4e-dc34abdc41d5))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN3") (unit 1)
         )
@@ -3012,7 +3186,7 @@
     (pin "8" (uuid 6d6b7e9a-e4a3-4948-8c76-4741ce123bb4))
     (pin "9" (uuid 7d2278b1-d101-4c8c-aec7-ebdb7128b14d))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "J3") (unit 1)
         )
@@ -3039,7 +3213,7 @@
     (pin "2" (uuid 079b83d8-dc6f-4386-bf14-bcdec38324b9))
     (pin "3" (uuid e94c40e7-3063-42b3-af9a-357e6c44426d))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "JP6") (unit 1)
         )
@@ -3065,7 +3239,7 @@
     (pin "1" (uuid 641e7525-e31f-451b-8976-cc5d6ae23ad1))
     (pin "2" (uuid edbaf07c-5d74-4a12-9179-b6391d4719d7))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "C5") (unit 1)
         )
@@ -3097,7 +3271,7 @@
     (pin "7" (uuid 55433cc2-2650-49ae-a30f-4585ff9ae51c))
     (pin "8" (uuid 7a469116-cf98-4eee-9480-08deac5cb316))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN5") (unit 1)
         )
@@ -3129,7 +3303,7 @@
     (pin "7" (uuid c905f4db-5d5b-40e4-9c5b-e57d32d88034))
     (pin "8" (uuid 2c3dfc34-1afd-47b9-abda-6caa01c1fa9b))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN6") (unit 1)
         )
@@ -3155,7 +3329,7 @@
     (pin "1" (uuid 0ec83383-de7a-41f2-b9f9-160da6ec415e))
     (pin "2" (uuid 1708683d-d0b4-4927-b5b7-4987212cb5ba))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "C1") (unit 1)
         )
@@ -3180,7 +3354,7 @@
     )
     (pin "1" (uuid 5c6bfb54-575a-48b2-af69-a1999cd11ce4))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR023") (unit 1)
         )
@@ -3212,7 +3386,7 @@
     (pin "7" (uuid 016cfb3c-9294-4e43-b519-e07968666765))
     (pin "8" (uuid 7ec9e423-eaf7-4beb-a83e-2ccc574d8202))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN12") (unit 1)
         )
@@ -3244,7 +3418,7 @@
     (pin "7" (uuid 840b405a-6f13-4fcd-bb59-92436b336bf1))
     (pin "8" (uuid 862c3f01-8234-411a-a6cf-f5034daf5426))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN1") (unit 1)
         )
@@ -3269,7 +3443,7 @@
     )
     (pin "1" (uuid a029d7ba-53d2-4fd6-bbe9-fe87027c5079))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR028") (unit 1)
         )
@@ -3294,7 +3468,7 @@
     )
     (pin "1" (uuid 18ac6cb3-9f63-4646-a24b-de76dc3cb538))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR014") (unit 1)
         )
@@ -3320,7 +3494,7 @@
     (pin "1" (uuid 444ba4ac-5841-4f67-9a3c-ced373e4ccd3))
     (pin "2" (uuid 3e91ead9-a844-48da-8f31-da830381bbb7))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "C3") (unit 1)
         )
@@ -3345,7 +3519,7 @@
     )
     (pin "1" (uuid 6c6df959-8229-44c0-a14e-db5ac13514ae))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "#PWR029") (unit 1)
         )
@@ -3377,7 +3551,7 @@
     (pin "7" (uuid 219401a6-ab4e-4a37-81df-9bdb731b8f3f))
     (pin "8" (uuid 70966298-39a8-4395-9622-51356d351a3e))
     (instances
-      (project "LitexCNC-7c81"
+      (project "LITEXCNC-HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "RN8") (unit 1)
         )
