@@ -30,6 +30,7 @@ Contents
 
    Connectors <connectors>
    Status LEDs <status_LEDs>
+   Preparing your Raspberry-Pi <rpi>
    License <license>
    Changelog <changelog>
 
