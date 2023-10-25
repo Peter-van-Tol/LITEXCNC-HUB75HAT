@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "litexcnc-hub75hat"
+version = "0.1.0"
+description = "HAT for LitexCNC"
+authors = ["Peter van Tol <petertgvantol@gmail.com>"]
+readme = "README.md"
+packages = [{include = "litexcnc_hub75hat"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jlc2kicadlib = "^1.0.24"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
