@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AliExpress")(type "KiCad")(uri "D:/GitHub/private/LITEXCNC-HUB75HAT/AliExpress/footprint")(options "")(descr ""))
+)
