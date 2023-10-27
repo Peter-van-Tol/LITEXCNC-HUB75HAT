@@ -697,7 +697,7 @@
       (net 224 "Net-(D11-A1)") (pintype "passive") (tstamp 225217d5-2a59-4944-af3f-e36273a283eb))
     (pad "2" smd roundrect (at 2.225 0) (size 1.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 228 "Net-(J21-Pin_2)") (pintype "passive") (tstamp 475eb2aa-bd87-4e1a-b93b-38a326d3f667))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -751,7 +751,7 @@
       (net 206 "Net-(D5-A1)") (pintype "passive") (tstamp ef5a116a-f724-44fd-a309-95572d7ee55a))
     (pad "2" smd roundrect (at 2.225 0) (size 1.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 226 "Net-(J20-Pin_2)") (pintype "passive") (tstamp a009237a-2afa-49e4-ae13-86a220188c81))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -925,7 +925,7 @@
       (net 66 "+5V") (pintype "passive") (tstamp 50bfe76a-90d9-461f-a935-216600233ea0))
     (pad "2" smd roundrect (at 2.225 0 90) (size 1.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 246 "Net-(JP3-A)") (pintype "passive") (tstamp a7fc41ea-a3bd-411d-a852-31a338f5e8be))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2713,7 +2713,7 @@
       (net 229 "Net-(J21-Pin_1)") (pintype "passive") (tstamp a7f66999-9cbe-400e-9a98-d338d46cd26a))
     (pad "2" smd roundrect (at 2.225 0 180) (size 1.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 225 "Net-(D11-A2)") (pintype "passive") (tstamp e607539a-f5a6-475b-826d-29caa43ffe9c))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3043,7 +3043,7 @@
       (net 227 "Net-(J20-Pin_1)") (pintype "passive") (tstamp 3162751b-2270-44c3-9177-c5f7bd0ca4c4))
     (pad "2" smd roundrect (at 2.225 0 180) (size 1.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 207 "Net-(D5-A2)") (pintype "passive") (tstamp 8e92e5bf-de82-4f5b-b7a0-fea2900fca6d))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3731,7 +3731,7 @@
       (net 66 "+5V") (pintype "passive") (tstamp ee9efb9e-d2e0-433c-9e6e-d1ed39a6aa1a))
     (pad "2" smd roundrect (at 2.225 0 90) (size 1.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 244 "Net-(JP1-A)") (pintype "passive") (tstamp d41a116e-14be-43c5-b3c6-631af46f11db))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5680,7 +5680,7 @@
       (net 66 "+5V") (pintype "passive") (tstamp e105e336-f18b-4dbe-bd33-801a01e907ec))
     (pad "2" smd roundrect (at 2.225 0 90) (size 1.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 245 "Net-(JP2-A)") (pintype "passive") (tstamp 37ab963b-6f67-4621-a7ee-63095182e6db))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1812_4532Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10422,7 +10422,7 @@
     (pts (xy 160.738 -101.39) (xy 136.238 -33.89))
     (height 75.5)
     (orientation 0)
-    (gr_text "24,5000 mm" (at 148.488 -27.04) (layer "Dwgs.User") (tstamp 8f534357-2976-409d-92ed-ae5b1f8e6398)
+    (gr_text "24.5000 mm" (at 148.488 -27.04) (layer "Dwgs.User") (tstamp 8f534357-2976-409d-92ed-ae5b1f8e6398)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -10432,7 +10432,7 @@
     (pts (xy 177.238 -61.89) (xy 136.238 -33.89))
     (height -47)
     (orientation 1)
-    (gr_text "28,0000 mm" (at 129.088 -47.89 90) (layer "Dwgs.User") (tstamp 96a41d15-035e-40bb-abd2-d4b4c33e0b40)
+    (gr_text "28.0000 mm" (at 129.088 -47.89 90) (layer "Dwgs.User") (tstamp 96a41d15-035e-40bb-abd2-d4b4c33e0b40)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -10442,7 +10442,7 @@
     (pts (xy 177.238 -61.89) (xy 136.238 -33.89))
     (height 39)
     (orientation 0)
-    (gr_text "41,0000 mm" (at 156.738 -24.04) (layer "Dwgs.User") (tstamp a2d80d14-87fc-4f19-a987-977a743d4d96)
+    (gr_text "41.0000 mm" (at 156.738 -24.04) (layer "Dwgs.User") (tstamp a2d80d14-87fc-4f19-a987-977a743d4d96)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -10452,7 +10452,7 @@
     (pts (xy 200.754 -75.292) (xy 136.238 -33.89))
     (height 55.402)
     (orientation 0)
-    (gr_text "64,5160 mm" (at 168.496 -21.04) (layer "Dwgs.User") (tstamp a3168293-45fb-4c87-8c2d-666ea57e085d)
+    (gr_text "64.5160 mm" (at 168.496 -21.04) (layer "Dwgs.User") (tstamp a3168293-45fb-4c87-8c2d-666ea57e085d)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -10462,7 +10462,7 @@
     (pts (xy 155.769 -111.995) (xy 176.724 -125.33))
     (height -27.305)
     (orientation 1)
-    (gr_text "13,3350 mm" (at 127.314 -118.6625 90) (layer "Dwgs.User") (tstamp b788caa8-efeb-41e2-a5ec-12e4037b9288)
+    (gr_text "13.3350 mm" (at 127.314 -118.6625 90) (layer "Dwgs.User") (tstamp b788caa8-efeb-41e2-a5ec-12e4037b9288)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -10472,7 +10472,7 @@
     (pts (xy 136.084 -33.89) (xy 279.594 -38.335))
     (height 20)
     (orientation 0)
-    (gr_text "143,5100 mm" (at 207.839 -15.04) (layer "Dwgs.User") (tstamp ba57b83f-1670-4f5d-8efc-100692e8df47)
+    (gr_text "143.5100 mm" (at 207.839 -15.04) (layer "Dwgs.User") (tstamp ba57b83f-1670-4f5d-8efc-100692e8df47)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -10482,7 +10482,7 @@
     (pts (xy 207.358 -76.435) (xy 136.238 -33.89))
     (height -83.12)
     (orientation 1)
-    (gr_text "42,5450 mm" (at 123.088 -55.1625 90) (layer "Dwgs.User") (tstamp c34c642b-dc74-4695-bf88-07ae3516f1f0)
+    (gr_text "42.5450 mm" (at 123.088 -55.1625 90) (layer "Dwgs.User") (tstamp c34c642b-dc74-4695-bf88-07ae3516f1f0)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -10492,7 +10492,7 @@
     (pts (xy 136.238 -33.89) (xy 160.738 -101.39))
     (height -15)
     (orientation 1)
-    (gr_text "67,5000 mm" (at 120.088 -67.64 90) (layer "Dwgs.User") (tstamp c4667a30-f806-4a1a-b879-4bd234fbab71)
+    (gr_text "67.5000 mm" (at 120.088 -67.64 90) (layer "Dwgs.User") (tstamp c4667a30-f806-4a1a-b879-4bd234fbab71)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -10502,7 +10502,7 @@
     (pts (xy 207.358 -76.435) (xy 136.238 -33.89))
     (height 59.545)
     (orientation 0)
-    (gr_text "71,1200 mm" (at 171.798 -18.04) (layer "Dwgs.User") (tstamp d33873aa-8612-409d-8f00-5cbb8daf085f)
+    (gr_text "71.1200 mm" (at 171.798 -18.04) (layer "Dwgs.User") (tstamp d33873aa-8612-409d-8f00-5cbb8daf085f)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -10512,7 +10512,7 @@
     (pts (xy 200.754 -75.292) (xy 136.238 -33.89))
     (height -73.516)
     (orientation 1)
-    (gr_text "41,4020 mm" (at 126.088 -54.591 90) (layer "Dwgs.User") (tstamp f6c35298-93a3-4181-9be3-beb5526bc525)
+    (gr_text "41.4020 mm" (at 126.088 -54.591 90) (layer "Dwgs.User") (tstamp f6c35298-93a3-4181-9be3-beb5526bc525)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
