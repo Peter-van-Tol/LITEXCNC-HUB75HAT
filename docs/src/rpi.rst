@@ -134,7 +134,6 @@ computer.
 
 .. code-block:: bash
     
-    litexcnc install_litex --user
     litexcnc install_toolchain --user --architecture arm --os linux
 
 .. note::
@@ -142,39 +141,6 @@ computer.
     When using a newer version of Debian, it might be a 64-bit version, in which case
     the switch ``--architecture arm64`` should be used instead. You can check whether
     you have a 32-bit or a 64-bit operating system by running ``uname -a`` in the terminal.
-
-Installing OpenOCD
-==================
-
-OpenOCD has support for Raspberry PI GPIO bit-bang programmer profile which means
-that we can use Raspberry Pi GPIOs to behave as a programmer pins. This feature is
-not enabled by default, so this requires to build OpenOCD on the Raspberry-Pi:
-
-#. Install openOCD and it’s dependencies:
-
-    .. code-block:: bash
-
-        sudo apt-get install autoconf libtool libusb-dev
-        git clone --recursive git://git.code.sf.net/p/openocd/code openocd-code
-        cd openocd-code
-
-#. Build openOCD with Raspberry Pi GPIO support:
-
-    .. code-block:: bash
-
-        ./bootstrap
-        ./configure --enable-bcm2835gpio
-        make 
-        sudo make install
-
-#. Prepare a config file to use Raspberry Pi GPIOs as programmer
-
-    .. code-block:: bash
-
-        cd /usr/local/share/openocd/scripts/interface
-        nano hub75hat.cfg
-
-        TODO
 
 Enabling SPI
 ============
@@ -232,3 +198,64 @@ These represent SPI devices on chip enable pins 0 and 1, respectively. These pin
 hardwired within the Pi. Ordinarily, this means the interface supports at most two 
 peripherals, but there are cases where multiple devices can be daisy-chained, sharing
 a single chip enable signal.
+
+Enabling UART
+=============
+THe HUB75HAT has two RS-485 connectors, which are powered by the RaspeberryPi UARTs 
+0 and 5. To use the RS-485 communication additional steps are required.
+
+UART0
+-----
+
+.. info::
+    Enabling UART5 is easier than enabling UART1. It is only recommended to enable UART0
+    when two RS-485 connections are required.
+
+By default, the primary UART is assigned to the Linux console. If you wish to use the
+primary UART for other purposes, you must reconfigure Raspberry Pi OS. This can be done
+by using raspi-config:
+
+#. Start raspi-config: ``sudo raspi-config``.
+#. Select option 3 - Interface Options.
+#. Select option P6 - Serial Port.
+#. At the prompt *Would you like a login shell to be accessible over serial?* answer 'No'
+#. At the prompt *Would you like the serial port hardware to be enabled?* answer 'Yes'
+#. Exit raspi-config and reboot the Raspberry Pi for changes to take effect.
+
+To switch the Bluetooth function to use the mini UART, and makes the first PL011 (UART0) 
+the primary UART, add the following lines to ``/boot/config.txt``:
+
+.. code-block::
+    enable_uart=1
+    dtoverlay=miniuart-bt
+    core_freq=250
+
+After rebooting the RaspeberryPi, one can check the whether messages can be sent using UART0
+by sending a test-message:
+
+.. code-block:: shell
+   sudo echo "Hello world" > /dev/ttyAMA0
+
+Sometimes one can experience ``Permission denied`` problems when executing the command above. In
+this case there is most likely another process using UART0. One can disable this service by running
+the following command and rebooting the RaspberryPi.
+
+.. code-block:: shell
+    sudo systemctl disable serial-getty@ttyAMA0.service
+
+UART5
+-----
+UART5 is located on GPIO pins 12 (RX) and 13 (TX). To enable UART5 add the following
+line to ``/boot/config.txt``:
+
+.. code-block::
+    dtoverlay=uart5
+
+UART5 can be found under ``/dev/ttyAMA1``.
+
+Example usage
+-------------
+An example usage of the UARTs is the `non-realtime component for Huanyang VFDs <https://linuxcnc.org/docs/html/man/man1/hy_vfd.1.html>`_.
+
+.. code-block::
+    hy_vfd --device /dev/ttyAMA1
