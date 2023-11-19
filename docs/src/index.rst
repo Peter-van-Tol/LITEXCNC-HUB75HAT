@@ -18,7 +18,7 @@ taken from the RPI's header (UART0 and UART1).
 The firmware is flashed onto the 5A-75B by using the RPI's GPIO pins. There is no need for external
 programmers. 
 
-The motherboard can also be used _without_ the RPI, by using the standard ethernet communication
+The motherboard can also be used *without* the RPI, by using the standard ethernet communication
 of the 5A-75B. In this case one would loose the ability to use the RS-485 interfaces and an external
 tool will be required to flash new firmware. 
 
