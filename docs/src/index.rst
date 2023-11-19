@@ -30,6 +30,7 @@ Contents
 
    Connectors <connectors>
    Status LEDs <status_LEDs>
+   Preparing your 5A-75B <5a-75b>
    Preparing your Raspberry-Pi <rpi>
    License <license>
    Changelog <changelog>
