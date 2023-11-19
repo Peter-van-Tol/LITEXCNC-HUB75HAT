@@ -226,6 +226,7 @@ To switch the Bluetooth function to use the mini UART, and makes the first PL011
 the primary UART, add the following lines to ``/boot/config.txt``:
 
 .. code-block::
+
     enable_uart=1
     dtoverlay=miniuart-bt
     core_freq=250
@@ -234,6 +235,7 @@ After rebooting the RaspeberryPi, one can check the whether messages can be sent
 by sending a test-message:
 
 .. code-block:: shell
+
    sudo echo "Hello world" > /dev/ttyAMA0
 
 Sometimes one can experience ``Permission denied`` problems when executing the command above. In
@@ -241,6 +243,7 @@ this case there is most likely another process using UART0. One can disable this
 the following command and rebooting the RaspberryPi.
 
 .. code-block:: shell
+
     sudo systemctl disable serial-getty@ttyAMA0.service
 
 UART5
@@ -249,6 +252,7 @@ UART5 is located on GPIO pins 12 (RX) and 13 (TX). To enable UART5 add the follo
 line to ``/boot/config.txt``:
 
 .. code-block::
+
     dtoverlay=uart5
 
 UART5 can be found under ``/dev/ttyAMA1``.
@@ -258,4 +262,5 @@ Example usage
 An example usage of the UARTs is the `non-realtime component for Huanyang VFDs <https://linuxcnc.org/docs/html/man/man1/hy_vfd.1.html>`_.
 
 .. code-block::
+    
     hy_vfd --device /dev/ttyAMA1
