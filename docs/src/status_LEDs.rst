@@ -7,10 +7,11 @@ LED locations
 
 The board has three groups of status LEDs:
 
-#. Power, ENA and ESTOP;
-#. TX/RX for RS-489 connnection 0 (UART0)
-#. TX/RX for RS-489 connnection 1 (UART1)
+#. Power and ENA on the bottom-left;
+#. TX/RX for RS-489 connnection 1 (UART0/)
+#. TX/RX for RS-489 connnection 5 (UART5)
 
+.. image:: static/HUB75HAT-LED.png
 
 Power, ENA and ESTOP
 ====================
@@ -23,11 +24,9 @@ is on, signals from the 5A-75B will flow to the three I/O connectors. It is stro
 not to change connections from the I/O, as this may result in damage or unexpected movement of
 the machine.
 
-The ESTOP indicator can only be on when the machine is enabled. It is turned on when any 
-ENA/ESTOP pin (pin 1 on the I/O connectors) is pulled to ground. LinuxCNC will disable the
-machine when the ESTOP has been triggered. Therefore, the LED is latched until the machine
-is enabled again.
+.. warning::
+    In version 1.0 the ENA-LED is not working.
 
 TX/RX status LEDs
 =================
-Both RS-489 connectors have two LEDs indicating communication to and from the port.
+Both RS-485 connectors have two LEDs indicating communication to and from the port.
