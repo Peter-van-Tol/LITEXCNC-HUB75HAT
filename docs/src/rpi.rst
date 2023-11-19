@@ -244,7 +244,7 @@ the following command and rebooting the RaspberryPi.
 
 .. code-block:: shell
 
-    sudo systemctl disable serial-getty@ttyAMA0.service
+    sudo systemctl mask serial-getty@ttyAMA0.service
 
 UART5
 -----
@@ -262,5 +262,5 @@ Example usage
 An example usage of the UARTs is the `non-realtime component for Huanyang VFDs <https://linuxcnc.org/docs/html/man/man1/hy_vfd.1.html>`_.
 
 .. code-block::
-    
+
     hy_vfd --device /dev/ttyAMA1
