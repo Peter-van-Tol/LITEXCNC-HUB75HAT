@@ -1,6 +1,6 @@
 # HUB75HAT
 
-A PCB that turns the Colorlight 5A-75B into an easy to use CNC contorller for cheap.
+A PCB that turns the Colorlight 5A-75B into an easy to use CNC controller for cheap.
 
 This project ist based on:
 - [cyber-murmel/chubby-hat](https://github.com/cyber-murmel/chubby-hat)
@@ -8,46 +8,27 @@ This project ist based on:
 
 The HUB75HAT is 5A-75B motherboard host for a Raspberry Pi CPU. The HUB75HAT connects to the RPI’s GPIO interface and uses SPI for FPGA communication. Three 26 pin header connectors with standard parallel port pinouts and 5V tolerant I/O are provided for compatibility with most parallel port interfaced motion control / CNC breakout cards / multi axis step motor drives.
 
-In addition to the parallel expansion ports, the HUB75HAT provides two RS-485 interfaces for I/O communication to other RS-485 applications, such as the Huanyang VFD series. These RS-485 are directly taken from the RPI’s header (UART0 and UART1).
+In addition to the parallel expansion ports, the HUB75HAT provides two RS-485 interfaces for I/O communication to other RS-485 applications, such as the Huanyang VFD series. These RS-485 are directly taken from the RPI’s header (UART0/1 and UART5).
 
 The firmware is flashed onto the 5A-75B by using the RPI’s GPIO pins. There is no need for external programmers.
 
 The motherboard can also be used _without_ the RPI, by using the standard ethernet communication of the 5A-75B. In this case one would loose the ability to use the RS-485 interfaces and an external tool will be required to flash new firmware.
 
-## Version 1.0
+## Breakout boards (BOB)
+Breakout boards are available for the HUB75HAT. These BOBs are designed to add functionality to the HUB75HAT by
+extending the GPIO from the 3 26 pin header connectors with drivers, receivers, opto-couplers, etc. Currently the
+following BOBs are available:
+- `BOB4AXIS<src/BOB4AXIS>`_: Supports driving of 4 axis with differential output. Has inputs for the ALARM of the stepper
+  drivers for each axis. Also has optocouplers for homing switches. The homing switches can be either NPN or PNP (selectable
+  per axis). Adding this BOB would be enough to run a small 3 axis CNC machine with 1 slave axis.
+- `BOB4ENCODER<src/BOB4ENCODER>`_: Supports up to 4 encoders with index (5V only). Unused inputs can be used for generic
+  IO. This board also has two connections for SERIAL boards, to further expand GPIO for your machine.
 
-The board features:
-- Designed for Raspberry Pi 4 and 5 (the older version RPi 3 might also work) with SPI communication
-- 3 I/O connectors:
-  - each 17 pins of freely addressable inputs / outputs;
-  - selectable 10 kOhm pull-down or pull-up resistor;
-  - optional 5V power supply on the connector;
-- 2 RS-485 connectors for external communications (based on UART0 and UART5 on the Raspberry Pi)
-
-![HUB75HAT](/images/HUB75HAT-v1.0.jpg)
-
-Known issues:
-- the space around the 40 pin connector of the HAT is a bit tight with the mounting points of the RPi. The solution to work with the current board is to use plastic stand-offs and cut part of these away.
-- the enable signal should be inverted on the board, because the buffer Output Enable (`OE`) is active LOW. I rather send a HIGH signal to the board to enable it (safety).
-- enable LED is not working (can also be a problem with the buffer IC, had some trouble with soldering this buffer). However, even if this LED was working, it would indicate that the board would be disabled (see previous point);
-- The 3 I/O headers do not have space for shrouded headers. Instead, I chose to use coloured pin headers to show the different functions of the pins;
-
-## Version 1.1
-
-The board features:
-- Designed for Raspberry Pi 4 and 5 (the older version RPi 3 might also work) with SPI communication
-- 3 I/O connectors:
-  - each 17 pins of freely addressable inputs / outputs;
-  - selectable 10 kOhm pull-down or pull-up resistor;
-  - optional 5V power supply on the connector;
-- 2 RS-485 connectors for external communications (based on UART0 and UART5 on the Raspberry Pi);
-- Resolved issues of board v1.0;
-- re-designed with most of the components on the bottom side of the board. This makes the board cheaper to
-  produce with services such as JLCPCB. The final iteration of the board can be ordered assembled starting
-  around 15 Eur per piece (excluding shipping, based on the minimum order size of 5 boards.)
+## Serial boards (SERIAL)
+These boards are still under development. Goal is to extend GPIO with SPI expanders.
 
 ## KiCad Version
-The following version of KiCad has been used to design the board:
+The following version of KiCad has been used to design the boards:
 ```
 Application: KiCad x64 on x64
 Version: 7.0.7, release build
