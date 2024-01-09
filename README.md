@@ -18,10 +18,10 @@ The motherboard can also be used _without_ the RPI, by using the standard ethern
 Breakout boards are available for the HUB75HAT. These BOBs are designed to add functionality to the HUB75HAT by
 extending the GPIO from the 3 26 pin header connectors with drivers, receivers, opto-couplers, etc. Currently the
 following BOBs are available:
-- `BOB4AXIS<src/BOB4AXIS>`_: Supports driving of 4 axis with differential output. Has inputs for the ALARM of the stepper
+- [BOB4AXIS](src/BOB4AXIS): Supports driving of 4 axis with differential output. Has inputs for the ALARM of the stepper
   drivers for each axis. Also has optocouplers for homing switches. The homing switches can be either NPN or PNP (selectable
   per axis). Adding this BOB would be enough to run a small 3 axis CNC machine with 1 slave axis.
-- `BOB4ENCODER<src/BOB4ENCODER>`_: Supports up to 4 encoders with index (5V only). Unused inputs can be used for generic
+- [BOB4ENCODER](src/BOB4ENCODER): Supports up to 4 encoders with index (5V only). Unused inputs can be used for generic
   IO. This board also has two connections for SERIAL boards, to further expand GPIO for your machine.
 
 ## Serial boards (SERIAL)
