@@ -8,7 +8,7 @@ LED locations
 The board has three groups of status LEDs:
 
 #. Power and ENA on the bottom-left;
-#. TX/RX for RS-489 connnection 1 (UART0)
+#. TX/RX for RS-489 connnection 1 (UART0/1)
 #. TX/RX for RS-489 connnection 5 (UART5)
 
 .. image:: static/HUB75HAT-LED.png
