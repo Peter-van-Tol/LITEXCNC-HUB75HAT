@@ -30,13 +30,11 @@ These boards are still under development. Goal is to extend GPIO with SPI expand
 ## Releases
 The table below gives for each board the current status and the latest release. 
 
-|---------------------|------------------------------------------|
 | board               | latest release                           |
 |---------------------|------------------------------------------|
 | HUB75HAT            | [v1.1](src/HUB75HAT/releases/v1.1/)      |
 | BOB4AXIS            | [v1.1](src/BOB4AXIS/releases/v1.1/)      |
 | BOB4ENCODER         | [v1.0](src/BOB4ENCODER/releases/v1.0/)   |
-|---------------------|------------------------------------------|
 
 In each release folder you'll find a production folder with:
 - a .zip-file which can be uploaded to your favorite PCB manufacturer
