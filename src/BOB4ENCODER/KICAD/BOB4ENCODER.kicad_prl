@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 36,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "0015055_80000000",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "BOB4ENCODER.kicad_prl",
