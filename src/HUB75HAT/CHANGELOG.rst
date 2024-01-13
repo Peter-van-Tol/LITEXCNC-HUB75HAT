@@ -5,7 +5,7 @@ CHANGELOG
 Version 1.2 (current version)
 =============================
 
-During soldering the version 1.1 boards, the following issues have been identified:
+During soldering the version 1.1 boards, the following issues have been identified and solved in this version:
 - The 40-pin header has the wrong footprint, there fore it clashes in practice with two polyfuses. The footprint
   will be corrected and the polyfuses will be moved to make space for the 40-pin header.
 - Several markings on the board are missing. These will be added to the board.
