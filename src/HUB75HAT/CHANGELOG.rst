@@ -2,16 +2,17 @@
 CHANGELOG
 =========
 
-Version 1.2 (under development)
-===============================
+Version 1.2 (current version)
+=============================
 
 During soldering the version 1.1 boards, the following issues have been identified:
 - The 40-pin header has the wrong footprint, there fore it clashes in practice with two polyfuses. The footprint
   will be corrected and the polyfuses will be moved to make space for the 40-pin header.
 - Several markings on the board are missing. These will be added to the board.
+- Removed unused diode from the board.
 
-Version 1.1 (current version)
-=============================
+Version 1.1
+===========
 
 First production version of the board. In total 15 boards were ordered from JLCPCB. The boards were assembled by JLCPCB as well.
 The total cost per board was around €17.50 (including shipping and taxes).
