@@ -909,7 +909,7 @@
           (reference "J17") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J10") (unit 1)
         )
@@ -939,7 +939,7 @@
           (reference "#PWR087") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR049") (unit 1)
         )
@@ -969,7 +969,7 @@
           (reference "#PWR072") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR034") (unit 1)
         )
@@ -999,7 +999,7 @@
           (reference "#PWR082") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR044") (unit 1)
         )
@@ -1029,7 +1029,7 @@
           (reference "#PWR074") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR036") (unit 1)
         )
@@ -1074,7 +1074,7 @@
           (reference "J23") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J16") (unit 1)
         )
@@ -1104,7 +1104,7 @@
           (reference "#PWR076") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR038") (unit 1)
         )
@@ -1149,7 +1149,7 @@
           (reference "J19") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J12") (unit 1)
         )
@@ -1179,7 +1179,7 @@
           (reference "#PWR081") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR043") (unit 1)
         )
@@ -1209,7 +1209,7 @@
           (reference "#PWR085") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR047") (unit 1)
         )
@@ -1239,7 +1239,7 @@
           (reference "#PWR086") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR048") (unit 1)
         )
@@ -1269,7 +1269,7 @@
           (reference "#PWR084") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR046") (unit 1)
         )
@@ -1299,7 +1299,7 @@
           (reference "#PWR089") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR051") (unit 1)
         )
@@ -1344,7 +1344,7 @@
           (reference "J12") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J5") (unit 1)
         )
@@ -1374,7 +1374,7 @@
           (reference "#PWR073") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR035") (unit 1)
         )
@@ -1419,7 +1419,7 @@
           (reference "J22") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J15") (unit 1)
         )
@@ -1449,7 +1449,7 @@
           (reference "#PWR078") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR040") (unit 1)
         )
@@ -1479,7 +1479,7 @@
           (reference "#PWR091") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR053") (unit 1)
         )
@@ -1524,7 +1524,7 @@
           (reference "J18") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J11") (unit 1)
         )
@@ -1554,7 +1554,7 @@
           (reference "#PWR077") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR039") (unit 1)
         )
@@ -1585,7 +1585,7 @@
           (reference "J21") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J14") (unit 1)
         )
@@ -1615,7 +1615,7 @@
           (reference "#PWR080") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR042") (unit 1)
         )
@@ -1646,7 +1646,7 @@
           (reference "J20") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J13") (unit 1)
         )
@@ -1676,7 +1676,7 @@
           (reference "#PWR079") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR041") (unit 1)
         )
@@ -1721,7 +1721,7 @@
           (reference "J11") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J4") (unit 1)
         )
@@ -1766,7 +1766,7 @@
           (reference "J13") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J6") (unit 1)
         )
@@ -1796,7 +1796,7 @@
           (reference "#PWR083") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR045") (unit 1)
         )
@@ -1826,7 +1826,7 @@
           (reference "#PWR075") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR037") (unit 1)
         )
@@ -1856,7 +1856,7 @@
           (reference "#PWR090") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "#PWR052") (unit 1)
         )
@@ -1901,7 +1901,7 @@
           (reference "J16") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J9") (unit 1)
         )
