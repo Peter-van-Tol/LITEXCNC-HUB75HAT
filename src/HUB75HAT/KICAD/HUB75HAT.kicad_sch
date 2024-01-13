@@ -1443,7 +1443,7 @@
     )
     (pin "1" (uuid 5ee58b61-08f5-41cd-9b73-28c28b873ea4))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/eed89ac5-39da-45b7-92da-21abb483bdd9"
           (reference "#PWR072") (unit 1)
         )
@@ -1484,7 +1484,7 @@
     (pin "14" (uuid dd75af98-1907-4141-b6b8-32387fa0e95f))
     (pin "7" (uuid 4f08a784-7f57-4486-baad-4c2300fa1d26))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "U7") (unit 5)
         )
@@ -1509,7 +1509,7 @@
     )
     (pin "1" (uuid b96dd7e5-df01-4cda-9969-bfd5cf4be555))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR062") (unit 1)
         )
@@ -1547,7 +1547,7 @@
     (pin "14" (uuid 798bd249-4248-498a-994d-548b1f460d92))
     (pin "7" (uuid f99e2dbf-76f1-4036-bdfe-ec34ef5c096e))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "U7") (unit 4)
         )
@@ -1585,7 +1585,7 @@
     (pin "14" (uuid 4627caa8-3645-48dc-b8c6-e087614d547c))
     (pin "7" (uuid 7d777b8c-7287-461a-a10f-30180eaf7033))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "U7") (unit 6)
         )
@@ -1611,7 +1611,7 @@
     (pin "1" (uuid f8f90c52-0a87-4829-a216-eb30a062177e))
     (pin "2" (uuid 2702f872-e74d-49b9-86bd-6b7feaea2eb7))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "D1") (unit 1)
         )
@@ -1640,7 +1640,7 @@
     (pin "1" (uuid 65d0abc0-82d0-4cda-b2bd-abd92323f445))
     (pin "2" (uuid 132ca685-e7c8-490f-ac77-cacbf845c5fe))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "R2") (unit 1)
         )
@@ -1665,7 +1665,7 @@
     )
     (pin "1" (uuid 0bbbe041-b7b6-4bf9-9c89-758c33a35aa4))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR065") (unit 1)
         )
@@ -1703,7 +1703,7 @@
     (pin "14" (uuid db36dbb1-ca73-4058-a443-9cae82fe6ffe))
     (pin "7" (uuid cdbe939d-3f62-459a-8f9b-7291968fdeee))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "U7") (unit 7)
         )
@@ -1736,7 +1736,7 @@
           (reference "J14") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J7") (unit 1)
         )
@@ -1766,7 +1766,7 @@
     (pin "2" (uuid 31e862c5-4eaa-4e22-8761-235d32a3da92))
     (pin "3" (uuid e11817d2-8106-41f0-940b-dc46e6557381))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "JP7") (unit 1)
         )
@@ -1791,7 +1791,7 @@
     )
     (pin "1" (uuid c969be9f-6958-4e27-9788-635efe7962d8))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/eed89ac5-39da-45b7-92da-21abb483bdd9"
           (reference "#PWR073") (unit 1)
         )
@@ -1832,7 +1832,7 @@
     (pin "14" (uuid 8b8e3127-7730-4cc5-ac1a-46535f4204fe))
     (pin "7" (uuid f4d94eb0-cedc-4ac3-bd6a-0a8570c2c807))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "U7") (unit 3)
         )
@@ -1865,7 +1865,7 @@
           (reference "J15") (unit 1)
         )
       )
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/ddedc954-987e-49a5-be4a-196a3f503e33"
           (reference "J8") (unit 1)
         )
@@ -1897,7 +1897,7 @@
     (pin "1" (uuid 5de13033-367a-4c22-8e27-df4df18f52d8))
     (pin "2" (uuid d762efb6-2d4b-428d-ab33-e2cd5ea0e8a6))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/1c7dda94-9358-4abf-bdc6-4f3b8e2b698c"
           (reference "C5") (unit 1)
         )
@@ -1932,7 +1932,7 @@
     (pin "1" (uuid ce6eadf2-8407-4d9f-aa1e-10252ef3ec7b))
     (pin "2" (uuid 428d0815-e41f-480a-adf5-e452e38b56b8))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "R1") (unit 1)
         )
@@ -1957,7 +1957,7 @@
     )
     (pin "1" (uuid 482a8707-e33f-4759-9e99-267ab504a0e6))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR055") (unit 1)
         )
@@ -1982,7 +1982,7 @@
     )
     (pin "1" (uuid 06e199c9-4ee8-4af6-8475-51e1652b7423))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR064") (unit 1)
         )
@@ -2007,7 +2007,7 @@
     )
     (pin "1" (uuid 3fa14687-4a14-4334-86e5-03d82c9c3ead))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR059") (unit 1)
         )
@@ -2071,7 +2071,7 @@
     (pin "8" (uuid cebdffe0-d8a5-483c-8ae5-552f5818d8e1))
     (pin "9" (uuid af7c795a-4543-440b-ae92-370da9e9db6b))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "J17") (unit 1)
         )
@@ -2096,7 +2096,7 @@
     )
     (pin "1" (uuid e41d00e3-90ed-4b36-bc4e-183b5d045557))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR060") (unit 1)
         )
@@ -2122,7 +2122,7 @@
     (pin "1" (uuid 410a887b-539f-4b7d-903e-e39e6849db58))
     (pin "2" (uuid ae24c99c-de83-4216-9c36-bb10e9bc9295))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "D2") (unit 1)
         )
@@ -2147,7 +2147,7 @@
     )
     (pin "1" (uuid 4480f85f-0760-4639-8b69-16d8cdc46eb7))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR054") (unit 1)
         )
@@ -2172,7 +2172,7 @@
     )
     (pin "1" (uuid 123bcd17-22e9-4412-94a0-8aa7ee34ae38))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR067") (unit 1)
         )
@@ -2197,7 +2197,7 @@
     )
     (pin "1" (uuid afab1464-1db3-4503-b358-defb0608073b))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR066") (unit 1)
         )
@@ -2235,7 +2235,7 @@
     (pin "14" (uuid 292e9573-db82-4299-8cc7-75eb86ce2b5d))
     (pin "7" (uuid 5227ec2c-d1bc-4a5f-9c26-05683f7b1054))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "U7") (unit 1)
         )
@@ -2260,7 +2260,7 @@
     )
     (pin "1" (uuid 906a2285-da9b-4db4-abb5-0dd55438c550))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR057") (unit 1)
         )
@@ -2298,7 +2298,7 @@
     (pin "14" (uuid 3bcd78c8-cf18-4b1a-afd5-46e579f2f100))
     (pin "7" (uuid 29b60a00-9231-4aa3-b40c-372fbc48f22f))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "U7") (unit 2)
         )
@@ -2323,7 +2323,7 @@
     )
     (pin "1" (uuid 67548121-d156-40a4-941d-270fe353f3de))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR061") (unit 1)
         )
@@ -2348,7 +2348,7 @@
     )
     (pin "1" (uuid 4c4be257-9b47-4a22-b030-75a7686cce40))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR063") (unit 1)
         )
@@ -2373,7 +2373,7 @@
     )
     (pin "1" (uuid 46cf9236-f735-4243-b993-5b5aa86bac05))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR056") (unit 1)
         )
@@ -2398,7 +2398,7 @@
     )
     (pin "1" (uuid 086d4543-c40e-4869-8ed0-f011ac8b7341))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027"
           (reference "#PWR058") (unit 1)
         )
@@ -2423,7 +2423,7 @@
     )
     (pin "1" (uuid 2ea1bd45-9567-4f43-9dc4-b9c5a870c0cd))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/eed89ac5-39da-45b7-92da-21abb483bdd9"
           (reference "#PWR0116") (unit 1)
         )
@@ -2451,7 +2451,7 @@
     )
     (pin "1" (uuid ceaf9a97-a193-435f-b0fd-7766f1f3b4e3))
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027/eed89ac5-39da-45b7-92da-21abb483bdd9"
           (reference "#PWR0117") (unit 1)
         )
@@ -2473,7 +2473,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027" (page "3"))
       )
     )
@@ -2498,7 +2498,7 @@
       (uuid 438b120d-fceb-4eca-87be-71f3e15f92ba)
     )
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027" (page "5"))
       )
     )
@@ -2523,7 +2523,7 @@
       (uuid b420a3db-858d-430e-9076-06f17a017a69)
     )
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027" (page "6"))
       )
     )
@@ -2540,7 +2540,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027" (page "4"))
       )
     )
@@ -2557,7 +2557,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "LITEXCNC-HUB75HAT"
+      (project "HUB75HAT"
         (path "/d03ad006-987f-4980-aa86-8f7e7030b027" (page "2"))
       )
     )
